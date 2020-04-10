@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* landing page start */
+#landing_page {
+    background-image: url(../images/office.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bnr_content .logo {
+    padding: 3vh 0 0 5vh;
+}
+
+.bnr_content .logo h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+}
+
+.bnr_content .coming_soon {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bnr_content .coming_soon p {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bnr_content .coming_soon h2 {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    margin: 0.5vh 0;
+}
+
+.bnr_content .social_icon {
+    position: absolute;
+    bottom: 3vh;
+    left: 5vh;
+}
+
+.bnr_content .social_icon ul {
+    display: flex;
+}
+
+.bnr_content .social_icon ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.bnr_content .social_icon ul li a {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+/* countdown */
+#countdown .timer .cnt_row {
+    display: flex;
+}
+
+#countdown .timer .cnt_row div {
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+#countdown .timer h3 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+#countdown .timer p {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* countdown */
+
+/* landing page end */
+
+
+/* ---------------responsive design--------------- */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .bnr_content .logo h1 {
+        font-size: 40px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 55px;
+    }
+
+    #countdown .timer .cnt_row div {
+        padding: 0 20px;
+    }
+
+    #countdown .timer h3 {
+        font-size: 50px;
+    }
+
+    #countdown .timer p {
+        font-size: 20px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .bnr_content .coming_soon p {
+        font-size: 22px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 50px;
+    }
+
+    #countdown .timer .cnt_row div {
+        padding: 0 20px;
+    }
+
+    #countdown .timer h3 {
+        font-size: 50px;
+    }
+
+    #countdown .timer p {
+        font-size: 20px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .bnr_content .coming_soon {
+        top: 46%;
+    }
+
+    .bnr_content .coming_soon p {
+        font-size: 20px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 45px;
+    }
+
+    #countdown .timer h3 {
+        font-size: 45px;
+    }
+
+    #countdown .timer p {
+        font-size: 18px;
+    }
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .bnr_content .logo {
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+
+    .bnr_content .coming_soon p {
+        font-size: 18px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 40px;
+    }
+
+    #countdown .timer .cnt_row div {
+        padding: 0 15px;
+    }
+
+    #countdown .timer h3 {
+        font-size: 30px;
+    }
+
+    #countdown .timer p {
+        font-size: 16px;
+    }
+    
+    .bnr_content .social_icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* ---------------responsive design--------------- */
