@@ -29,8 +29,8 @@ p {
 }
 
 /* landing page start */
-#landing_page {
-    background-image: url(../images/note_pen.jpg);
+#particles-js {
+    background-image: url(../images/autumn_road.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -96,6 +96,7 @@ header {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     .bnr_content .coming_soon h2 {
         font-size: 55px;
     }
@@ -114,6 +115,7 @@ header {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     nav {
         display: flex;
         justify-content: center;

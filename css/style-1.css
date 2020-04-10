@@ -36,15 +36,11 @@ p {
     height: 100vh;
 }
 
-.bnr_content .logo {
-    padding: 3vh 0 0 5vh;
-}
-
-.bnr_content .logo h1 {
-    color: #ffffff;
-    font-size: 45px;
-    font-weight: 600;
-    font-family: 'Lobster', cursive;
+header {
+    position: fixed;
+    width: 100%;
+    top: 5vh;
+    padding: 0 3vw;
 }
 
 .bnr_content .coming_soon {
@@ -124,10 +120,6 @@ p {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .bnr_content .logo h1 {
-        font-size: 40px;
-    }
-
     .bnr_content .coming_soon h2 {
         font-size: 55px;
     }
@@ -174,6 +166,11 @@ p {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
     .bnr_content .coming_soon {
         top: 46%;
     }
@@ -194,14 +191,19 @@ p {
         font-size: 18px;
     }
 
+    .bnr_content .social_icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    .bnr_content .logo {
-        padding: 15px 0 0 0;
-        text-align: center;
+    nav {
+        display: flex;
+        justify-content: center;
     }
 
     .bnr_content .coming_soon p {
@@ -229,6 +231,4 @@ p {
         transform: translateX(-50%);
     }
 }
-
-
 /* ---------------responsive design--------------- */
