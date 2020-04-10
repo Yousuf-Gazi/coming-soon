@@ -1,6 +1,6 @@
 // typing effect start
 var typed = new Typed('.typing', {
-    strings: ["We are coming soon", "Stay with us!"],
+    strings: ["We are coming soon.", "Stay with us!"],
     loop: true,
     typeSpeed: 40,
     backSpeed: 40,

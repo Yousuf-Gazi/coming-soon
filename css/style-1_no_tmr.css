@@ -86,33 +86,73 @@ p {
     color: #ffffff;
     font-size: 25px;
 }
-
-
-
-
-
-/* countdown */
-.timer .cnt_row {
-    display: inline-block;
-}
-
-.timer .cnt_row div {
-    display: inline-block;
-    padding: 0 30px;
-}
-
-.timer h3 {
-    color: #fff;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 1;
-}
-
-.timer p {
-    color: #f0f0f0;
-    font-size: 20px;
-    font-weight: 600;
-}
-/* countdown */
-
 /* landing page end */
+
+
+/* ---------------responsive design--------------- */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bnr_content .logo h1 {
+        font-size: 40px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 55px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bnr_content .coming_soon p {
+        font-size: 22px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 50px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bnr_content .coming_soon {
+        top: 46%;
+    }
+
+    .bnr_content .coming_soon p {
+        font-size: 20px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 60px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .bnr_content .logo {
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+
+    .bnr_content .coming_soon p {
+        font-size: 18px;
+    }
+
+    .bnr_content .coming_soon h2 {
+        font-size: 55px;
+    }
+
+    .bnr_content .social_icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* ---------------responsive design--------------- */
