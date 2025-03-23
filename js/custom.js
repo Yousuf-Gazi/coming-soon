@@ -11,7 +11,7 @@ var typed = new Typed('.typing', {
 
 // countdown start
 $("#countdown")
-.countdown("2021/03/02", function(event) {
+.countdown("2030/03/02", function(event) {
 
     $('#days').text(
         event.strftime('%D')
